@@ -39,7 +39,7 @@ npm install
 
 ## Environment Variables
 
-Create a .env file in the root of the project:
+Create a .env file (rename .env.example to .env and adapt it to your settings):
 ```dotenv
 VITE_STOMP_URL=ws://localhost:61614
 VITE_STOMP_USER=admin
