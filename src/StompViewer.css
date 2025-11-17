@@ -1,0 +1,31 @@
+.StompViewer {
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: white;
+}
+
+.StompMessageRow {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-bottom: 1px solid #eee;
+    padding: 2px 0;
+}
+
+.StompMessageTopic {
+    flex: 0 0 250px; /* fixed width for topic column */
+    font-weight: bold;
+    word-break: break-all;
+    text-align: justify;
+}
+
+.StompMessagePayload {
+    flex: 1; /* payload takes remaining space */
+    word-break: break-word;
+    text-align: justify;
+}
